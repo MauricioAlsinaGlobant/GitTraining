@@ -1,0 +1,18 @@
+<apex:page standardController="Case" extensions="CaseCustomController">
+    <apex:form >
+        <apex:pageBlock title="Create Case with Custom Controller">
+            <apex:pageBlockSection > 
+                <!-- Test for later 
+                <apex:inputField value="{! Case.ContactId}"/>
+                <apex:inputField value="{! Case.AccountId}"/>-->
+                
+                <apex:inputField value="{! aCase.Type}"/>
+                <apex:inputField value="{! aCase.Status}"/>
+                <apex:inputField value="{! aCase.Origin}"/>
+                <apex:inputField value="{! aCase.Reason}"/>
+                <apex:inputField value="{! aCase.Subject}"/>
+            </apex:pageBlockSection>
+            <apex:commandButton action="{!saveCase}" value="Save"/>            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

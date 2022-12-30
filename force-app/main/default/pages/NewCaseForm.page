@@ -1,0 +1,16 @@
+<apex:page standardController="Case">
+    <apex:form >
+        <apex:pageBlock title="Create Case">
+            <apex:pageBlockSection > 
+                <apex:inputField value="{! Case.ContactId}"/>
+                <apex:inputField value="{! Case.AccountId}"/>
+                <apex:inputField value="{! Case.Type}"/>
+                <apex:inputField value="{! Case.Status}"/>
+                <apex:inputField value="{! Case.Origin}"/>
+                <apex:inputField value="{! Case.Reason}"/>
+                <apex:inputField value="{! Case.Subject}"/>
+            </apex:pageBlockSection>
+            <apex:commandButton action="{!save}" value="Save"/>            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
