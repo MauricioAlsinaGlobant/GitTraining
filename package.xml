@@ -6,6 +6,18 @@
     </types>
     <types>
         <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Sticker__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Sticker__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>ListView</name>
     </types>
     <version>51.0</version>
